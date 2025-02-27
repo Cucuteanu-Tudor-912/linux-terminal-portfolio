@@ -13,7 +13,7 @@ const fileSystem: FileSystem = {
     'project2.txt': 'Project 2: Blockchain-based voting platform',
     'project3.txt': 'Project 3: Quantum-resistant encryption algorithm',
   },
-  'contact.txt': 'Email: 2usi@hacktheplanet.com\nTwitter: @2Usi',
+  'contact.txt': 'Email: cucuteanutudor@gmail.com\nLinkedIn: Cucuteanu Tudor\nTryHackMe:Cucuteanu-Tudor',
 }
 
 const asciiArt = `
