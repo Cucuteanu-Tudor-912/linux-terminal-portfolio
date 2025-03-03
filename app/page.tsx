@@ -7,11 +7,10 @@ type FileSystem = {
 }
 
 const fileSystem: FileSystem = {
-  'about.txt': 'Hi, I\'m 2Usi. A hacker and developer extraordinaire.',
+  'about.txt': 'Hi, I\'m Tudor. A cyber-security enthusiast and (learning) developer.',
   projects: {
-    'project1.txt': 'Project 1: A revolutionary AI system',
-    'project2.txt': 'Project 2: Blockchain-based voting platform',
-    'project3.txt': 'Project 3: Quantum-resistant encryption algorithm',
+    'project1.txt': 'Project 1: This personal portfolio!',
+    'project2.txt': 'Project 2: A network vulnerability scanner',
   },
   'contact.txt': 'Email: cucuteanutudor@gmail.com\nLinkedIn: Cucuteanu Tudor\nTryHackMe:Cucuteanu-Tudor',
 }
@@ -79,7 +78,7 @@ export default function Home() {
       setLoading(false)
       setLoadingText('')
       
-      const fullMessage = `${asciiArt}\n\nWelcome to 2Usi's Hacking Terminal\n\nAvailable commands:\n${commands.join('\n')}`
+      const fullMessage = `${asciiArt}\n\nWelcome to Tudor's Portfolio Terminal\n\nAvailable commands:\n${commands.join('\n')}`
       setOutput(fullMessage.split('\n'))
     }
 
@@ -150,7 +149,7 @@ export default function Home() {
       <div className="max-w-2xl mx-auto">
         <div className="flex items-center mb-4">
           <TerminalIcon />
-          <h1 className="text-2xl font-bold ml-2">2Usi's Hacking Terminal</h1>
+          <h1 className="text-2xl font-bold ml-2">Tudor's Portfolio Terminal</h1>
         </div>
         <div className="bg-gray-900 p-4 rounded-lg shadow-lg border border-green-500">
           <div className="mb-4 overflow-x-auto whitespace-pre">
