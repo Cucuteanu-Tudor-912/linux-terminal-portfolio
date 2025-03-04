@@ -111,7 +111,13 @@ export default function Home() {
     switch (command) {
       case 'ls':
         if (typeof currentDir === 'object') {
-          setOutput(prev => [...prev, `> ${cmd}`, ...Object.keys(currentDir)])
+          const dirContents = Object.keys(currentDir).map((item) => {
+            const isDirectory = typeof currentDir[item] === "object"
+            return isDirectory
+              ? `<span class="text-yellow-400">${item}/</span>`
+              : `<span class="text-green-300">${item}</span>`
+          })
+          setOutput((prev) => [...prev, `> ${cmd}`, ...dirContents])
         } else {
           setOutput(prev => [...prev, `> ${cmd}`, 'Not a directory'])
         }
