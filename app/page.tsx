@@ -164,12 +164,10 @@ export default function Home() {
         </div>
         <div className="bg-gray-900 p-4 rounded-lg shadow-lg border border-green-500">
           <div className="mb-4 overflow-x-auto whitespace-pre">
-            {loading ? (
+          {loading ? (
               <div>{loadingText}</div>
             ) : (
-              output.map((line, index) => (
-                <div key={index}>{line}</div>
-              ))
+              output.map((line, index) => <div key={index} dangerouslySetInnerHTML={{ __html: line }} />)
             )}
           </div>
           {!loading && (
