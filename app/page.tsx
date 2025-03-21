@@ -10,13 +10,13 @@ const fileSystem: FileSystem = {
   'about.txt': 'Hi, I\'m Tudor. A cyber-security enthusiast and (learning) developer.',
   projects: {
     'project1.txt': 'Project 1: This personal portfolio!\nIt was done using Next.js and Tailwind. If you want to see the source code, go to my Github!',
-    'project2.txt': 'Project 2: A network vulnerability scanner (still in progress)\n\nUsing python (to be more exact, packages such as python-nmap) to scan the WLAN,\n then give out basic system info based on response packages.\nPlanning to use a tool that checks for device vulnerabilities (such as metasploit),\n to also print each device\'s weak spots',
+    'project2.txt': 'Project 2: A network vulnerability scanner\n\nUsing python to scan the WLAN,\n then give out basic system info based on response packages.\nUsing Vulners-API, we can check each device\'s weak points!',
   },
   'education.txt':'October 2024 - Present\nBabes-Bolyai University, Cluj-Napoca\nBachelor\'s in Computer Science' ,
   experience:{
     'SC Faoxim SRL.txt':'March 2021 - Present\nPloiesti, Prahova\nFaoxim is a national oxygen supplier for a wide range of companies. \nI work in assuring network and individual system security,\n maintaining the already existing digital infrastructure and implementing new automation methods.',
   },
-  'skills.txt': ' Three.JS - Beginner\n C++ - Beginner\n C - Beginner\n Java - Intermediate\n Next.js+React - Intermediate\n Bash - Intermediate \n NASM - Advanced \n Python - Advanced\n ',
+  'skills.txt': ' Three.JS - Beginner\n C++ - Beginner\n C - Beginner\n Java - Intermediate\n Next.js + React - Intermediate\n Bash - Intermediate \n NASM - Advanced \n Python - Advanced\n ',
   'contact.txt': 'Email: cucuteanutudor@gmail.com\nLinkedIn: Cucuteanu Tudor\nTryHackMe:Cucuteanu-Tudor',
 }
 
